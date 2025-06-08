@@ -1,6 +1,5 @@
-# 🎓 ERC 101 — Roadmap
+# 🎓 ER 101 — Roadmap
 
-Welcome to **ERC 101**, a curated learning path to master Digital Electronics, designed and organized by the **Electronics and Robotics Club (ERC)**. This guide combines handpicked video lectures, tutorials, and reading material for a comprehensive and structured learning experience.
 
 ---
 
@@ -46,6 +45,8 @@ Welcome to **ERC 101**, a curated learning path to master Digital Electronics, d
   - [Intro](https://www.circuitbread.com/tutorials/how-a-mosfet-works-at-the-semiconductor-level)  
   - [Comparison](https://www.circuitbread.com/tutorials/nmos-vs-pmos-and-enhancement-vs-depletion-mode-mosfets)
 
+Once you understand the behavior of individual logic gates, the next logical step is learning how to express and simplify complex logic systems. This section is critical for designing efficient digital systems.
+
 #### Boolean Logic
 - [Boolean Algebra & Laws](https://www.geeksforgeeks.org/boolean-algebra/)  
 📼 *Videos 35, 37*
@@ -59,7 +60,9 @@ Welcome to **ERC 101**, a curated learning path to master Digital Electronics, d
 
 ---
 
+
 ### 4. ⚙️ Combinational Circuits
+
 
 #### ➕ Adders
 - [Half Adder](https://www.geeksforgeeks.org/digital-electronics-half-adder/)
@@ -144,67 +147,95 @@ Welcome to **ERC 101**, a curated learning path to master Digital Electronics, d
 ---
 
 Okay as you've understood the basics of digital electronics now lets understand microcontrollers
+## 🧠 Microcontrollers and Embedded Systems
 
-### 8. Basics of a Microcontroller
-- [Basics of MCU](https://www.renesas.com/en/support/engineer-school/mcu-01-basic-structure-operation) (Read the full module)
-- [More in depth basics](https://embedded.fm/blog/2016/2/27/embedded-software-engineering-101-microcontroller-basics)
+---
+
+### 8. 🧩 Basics of a Microcontroller
+- [Basics of MCU](https://www.renesas.com/en/support/engineer-school/mcu-01-basic-structure-operation)
+- [More in-depth basics](https://embedded.fm/blog/2016/2/27/embedded-software-engineering-101-microcontroller-basics)
 - ▶️ [Microcontroller Explanation](https://www.youtube.com/watch?v=JwCTkm43CxQ)
 
-### 9. Peripheral Interactions(GPIO, ADC, DAC)
-- [Basics](https://www.renesas.com/en/support/engineer-school/mcu-programming-peripherals-01-gpio)
-- [Essential Peripherals Explained](https://embeddedinventor.com/9-essential-microcontroller-peripherals-explained/)
-- ▶️ [GPIO Inputs and Outputs Explained](https://www.youtube.com/watch?v=Naz_qLfcWpg) (Second Half of the video how to use wire.h / i2c communication)
+---
 
-### 10. Serial Communication(UART, I2C, SPI)
+### 9. 🧷 Peripheral Interactions (GPIO, ADC, DAC)
+- [GPIO Basics](https://www.renesas.com/en/support/engineer-school/mcu-programming-peripherals-01-gpio)
+- [Essential Peripherals Explained](https://embeddedinventor.com/9-essential-microcontroller-peripherals-explained/)
+- ▶️ [GPIO Inputs/Outputs Explained](https://www.youtube.com/watch?v=Naz_qLfcWpg) *(Second half covers `wire.h` / I2C communication)*
+
+---
+
+### 10. 🔄 Serial Communication (UART, I2C, SPI)
 - ▶️ [Basics of Serial Communication](https://www.youtube.com/watch?v=IyGwvGzrqp8)
 - 📄 [Serial Communication in Detail](./resources/Communication_Protocols.pdf)
 
-#### UART (Asynchronous Communication)
-- ▶️[UART Protocol Explained](https://www.youtube.com/watch?v=JuvWbRhhpdI)
+#### 📨 UART (Asynchronous Communication)
+- ▶️ [UART Protocol Explained](https://www.youtube.com/watch?v=JuvWbRhhpdI)
 - [Basics of UART Communication](https://www.circuitbasics.com/basics-uart-communication/)
 
-#### SPI (Synchronous Communication)
-- ▶️[SPI Protocol Explained](https://www.youtube.com/watch?v=xogsRnnhK44)
-- [Basics of SPI Communication](https://www.circuitbasics.com/basics-of-the-i2c-communication-protocol/)
+#### 🔁 SPI (Synchronous Communication)
+- ▶️ [SPI Protocol Explained](https://www.youtube.com/watch?v=xogsRnnhK44)
+- [Basics of SPI Communication](https://www.circuitbasics.com/basics-of-the-spi-communication-protocol/)
 
-#### I2C (Synchronous Communication)
-- ▶️[I2C Protocol Explained](https://www.youtube.com/watch?v=pbqk5yqbfuw)
-- [Basics of UART Communication](https://www.circuitbasics.com/basics-of-the-spi-communication-protocol/)
+#### 🔗 I2C (Synchronous Communication)
+- ▶️ [I2C Protocol Explained](https://www.youtube.com/watch?v=pbqk5yqbfuw)
+- [Basics of I2C Communication](https://www.circuitbasics.com/basics-of-the-i2c-communication-protocol/)
 
-### 11. Data Storage
-- ▶️[EEPROM Explained](https://youtu.be/Sus96TzvjT4?si=4noOQwfwPUWtsjCM)
-- ▶️[Flash Memory Explained](https://www.youtube.com/watch?v=b5BPcQUkHbI)
-- ▶️[Nand Flash Explained indepth](https://www.youtube.com/watch?v=YtBysgPOKx4)
+---
 
-### 12.Processor Basics: Cores & Threads
-- ▶️[What are Cores?](https://www.youtube.com/watch?v=S3I5WNHbnJ0)
-- ▶️[Cores vs Threads](https://www.youtube.com/watch?v=hwTYDQ0zZOw)
-- [Cores vs Threads](https://www.namehero.com/blog/cpu-cores-vs-threads-everything-you-need-to-know/)
-- ▶️[Threads](https://www.youtube.com/watch?v=M9HHWFp84f0)
-- [MultiThreading](https://www.geeksforgeeks.org/multithreading-in-operating-system/)
-- ▶️[Threads with Multi Core ](https://www.youtube.com/watch?v=5sw9XJokAqw)
+### 11. 💾 Data Storage
+- ▶️ [EEPROM Explained](https://youtu.be/Sus96TzvjT4?si=4noOQwfwPUWtsjCM)
+- ▶️ [Flash Memory Explained](https://www.youtube.com/watch?v=b5BPcQUkHbI)
+- ▶️ [NAND Flash In-depth](https://www.youtube.com/watch?v=YtBysgPOKx4)
 
-### 13.RTOS (What is RTOS?)
-- [Playlist In-Depth RTOS explanation (Free RTOS)](https://www.youtube.com/playlist?list=PLEBQazB0HUyQ4hAPU1cJED6t3DU0h34bz) (First Video for Basic Explanation)
+---
+
+### 12. 🧠 Processor Basics: Cores & Threads
+- ▶️ [What are Cores?](https://www.youtube.com/watch?v=S3I5WNHbnJ0)
+- ▶️ [Cores vs Threads](https://www.youtube.com/watch?v=hwTYDQ0zZOw)
+- [Cores vs Threads (Article)](https://www.namehero.com/blog/cpu-cores-vs-threads-everything-you-need-to-know/)
+- ▶️ [Threads Explained](https://www.youtube.com/watch?v=M9HHWFp84f0)
+- [Multithreading](https://www.geeksforgeeks.org/multithreading-in-operating-system/)
+- ▶️ [Threads on Multicore Systems](https://www.youtube.com/watch?v=5sw9XJokAqw)
+
+---
+
+### 13. ⏱️ RTOS (Real-Time Operating Systems)
+- ▶️ [RTOS Playlist (FreeRTOS)](https://www.youtube.com/playlist?list=PLEBQazB0HUyQ4hAPU1cJED6t3DU0h34bz) - See first video for basics
 
 
-## Practical Stuff
-### Online Simulators to Practice
+---
+
+## 🧪 Practical Stuff
+The following section translates theoretical knowledge into hands-on experience. Applying concepts using real or simulated environments is a crucial step in reinforcing and internalizing what you've learned so far.
+---
+
+### 🖥️ Online Simulators
 - [Wokwi](https://wokwi.com/)
 - [TinkerCAD](https://www.tinkercad.com/)
 
-### Learning How to use a microcontroller(ARDUINO)
-- [Arduino Masterclass from basics](https://www.youtube.com/watch?v=BLrHTHUjPuw) (Not compulsory but good resource to understand everything from the start)
-- [Overview of Components](https://docs.arduino.cc/tutorials/uno-rev3/intro-to-board/)
-- [Full Pinout Diagram](./resources/A000066-full-pinout.pdf)
+---
 
-- [I2C Communication With mpu](./resources/MpuWithI2C)
-- i2c Communication with Arduino --> Second half of gpio pins video 
-- [SpI Communication using Arduino(Video tutorial)](https://www.youtube.com/watch?v=fvOAbDMzoks)
+### 🔌 Learning How to Use a Microcontroller (Arduino)
+- ▶️ [Arduino Masterclass (Optional but Recommended)](https://www.youtube.com/watch?v=BLrHTHUjPuw)
+- [Component Overview](https://docs.arduino.cc/tutorials/uno-rev3/intro-to-board/)
+- 📄 [Arduino Full Pinout Diagram](./resources/A000066-full-pinout.pdf)
 
+#### 📡 Protocols with Arduino
+- 📄 [MPU with I2C](./resources/MpuWithI2C)
+- 🧪 I2C Communication — *Refer to second half of [GPIO video](https://www.youtube.com/watch?v=Naz_qLfcWpg)*
+- ▶️ [SPI Communication with Arduino](https://www.youtube.com/watch?v=fvOAbDMzoks)
 - [EEPROM with Arduino](https://docs.arduino.cc/learn/programming/eeprom-guide/)
-- [Sd Card with Arduino](https://randomnerdtutorials.com/guide-to-sd-card-module-with-arduino/)
+- [SD Card with Arduino](https://randomnerdtutorials.com/guide-to-sd-card-module-with-arduino/)
 
--  Free RTOS --> checkout the RTOS Playlist
--  [Multicore programming using FreeRTOS](./resources/multicore)
+---
+
+While this implementation is specific to the ESP32, the concepts of multitasking and time-sensitive execution are platform-agnostic. Learning RTOS fundamentals is important for working with advanced embedded applications.
+
+### ⏱️ RTOS with Arduino (ESP32)
+- ▶️ [FreeRTOS on ESP32 with Arduino IDE (Task Switching Demo)](https://www.youtube.com/watch?v=VvRLv6FNRl8)
+- 📄 [FreeRTOS Multitasking Example Code (ESP32 with Arduino)](https://github.com/ExplainingComputers/FreeRTOS_ESP32) *(Repo with example tasks)*
+
+
+
 
