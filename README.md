@@ -133,7 +133,7 @@ Welcome to **ERC 101**, a curated learning path to master Digital Electronics, d
 
 #### ⏲️ 555 Timer
 ▶️ [555 Timer Playlist](https://youtube.com/playlist?list=PLwjK_iyK4LLCVdgBR30pSFVj-17TI_8ou)  
-📼 *Videos 10–13*
+📼 *Videos 10–13 in the above playlist*
 
 #### 📶 PWM (DAC Alternative)
 - [PWM Explained](https://www.geeksforgeeks.org/pulse-width-modulation-pwm/)
