@@ -145,16 +145,60 @@ Welcome to **ERC 101**, a curated learning path to master Digital Electronics, d
 
 Okay as you've understood the basics of digital electronics now lets understand microcontrollers
 
-### 8.Basics of a Microcontroller
+### 8. Basics of a Microcontroller
 - [Basics of MCU](https://www.renesas.com/en/support/engineer-school/mcu-01-basic-structure-operation) (Read the full module)
 - [More in depth basics](https://embedded.fm/blog/2016/2/27/embedded-software-engineering-101-microcontroller-basics)
 - ▶️ [Microcontroller Explanation](https://www.youtube.com/watch?v=JwCTkm43CxQ)
 
-### 9.Peripheral Interactions(GPIO, ADC, DAC)
+### 9. Peripheral Interactions(GPIO, ADC, DAC)
 - [Basics](https://www.renesas.com/en/support/engineer-school/mcu-programming-peripherals-01-gpio)
 - [Essential Peripherals Explained](https://embeddedinventor.com/9-essential-microcontroller-peripherals-explained/)
-- ▶️ [GPIO Inputs and Outputs Explained](https://www.youtube.com/watch?v=Naz_qLfcWpg)
+- ▶️ [GPIO Inputs and Outputs Explained](https://www.youtube.com/watch?v=Naz_qLfcWpg) (Second Half of the video how to use wire.h / spi communication)
 
 ### 10. Serial Communication(UART, I2C, SPI)
 - ▶️ [Basics of Serial Communication](https://www.youtube.com/watch?v=IyGwvGzrqp8)
-- 📄 [Serial Communication in Detail](https://www.youtube.com/watch?v=IyGwvGzrqp8)
+- 📄 [Serial Communication in Detail](./resources/Communication_Protocols.pdf)
+
+#### UART
+- ▶️[UART Protocol Explained](https://www.youtube.com/watch?v=JuvWbRhhpdI)
+- [Basics of UART Communication](https://www.circuitbasics.com/basics-uart-communication/)
+
+#### I2C
+- ▶️[I2C Protocol Explained](https://www.youtube.com/watch?v=pbqk5yqbfuw)
+- [Basics of UART Communication](https://www.circuitbasics.com/basics-of-the-spi-communication-protocol/)
+
+#### SPI
+- ▶️[SPI Protocol Explained](https://www.youtube.com/watch?v=xogsRnnhK44)
+- [Basics of SPI Communication](https://www.circuitbasics.com/basics-of-the-i2c-communication-protocol/)
+
+### 11. Data Storage
+- ▶️[EEPROM Explained](https://youtu.be/Sus96TzvjT4?si=4noOQwfwPUWtsjCM)
+- ▶️[Flash Memory Explained](https://www.youtube.com/watch?v=b5BPcQUkHbI)
+- ▶️[Nand Flash Explained indepth](https://www.youtube.com/watch?v=YtBysgPOKx4)
+
+### 12.Processor Basics: Cores & Threads
+- ▶️[What are Cores?](https://www.youtube.com/watch?v=S3I5WNHbnJ0)
+- ▶️[Cores vs Threads](https://www.youtube.com/watch?v=hwTYDQ0zZOw)
+- [Cores vs Threads](https://www.namehero.com/blog/cpu-cores-vs-threads-everything-you-need-to-know/)
+- ▶️[Threads](https://www.youtube.com/watch?v=M9HHWFp84f0)
+- [MultiThreading](https://www.geeksforgeeks.org/multithreading-in-operating-system/)
+- ▶️[Threads with Multi Core ](https://www.youtube.com/watch?v=5sw9XJokAqw)
+
+### 13.RTOS (What is RTOS?)
+- [Playlist In-Depth RTOS explanation (Free RTOS)](https://www.youtube.com/playlist?list=PLEBQazB0HUyQ4hAPU1cJED6t3DU0h34bz) (First Video for Basic Explanation)
+
+
+## Practical Stuff
+### Online Simulators to Practice
+- [Wokwi](https://wokwi.com/)
+- [TinkerCAD](https://www.tinkercad.com/)
+
+### Learning How to use a microcontroller(ARDUINO)
+- [Arduino Masterclass from basics](https://www.youtube.com/watch?v=BLrHTHUjPuw) (Not compulsory but good resource to understand everything from the start)
+- [Overview of Components](https://docs.arduino.cc/tutorials/uno-rev3/intro-to-board/)
+- [Full Pinout Diagram](./resources/A000066-full-pinout.pdf)
+
+- [I2C Communication With mpu]() 
+
+- [EEPROM with Arduino](https://docs.arduino.cc/learn/programming/eeprom-guide/)
+- [Sd Card with Arduino](https://randomnerdtutorials.com/guide-to-sd-card-module-with-arduino/)
