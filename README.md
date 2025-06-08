@@ -205,9 +205,9 @@ Okay as you've understood the basics of digital electronics now lets understand 
 
 
 ---
+The following section translates theoretical knowledge into hands-on experience. Applying concepts using real or simulated environments is a crucial step in reinforcing and internalizing what you've learned so far.
 
 ## 🧪 Practical Stuff
-The following section translates theoretical knowledge into hands-on experience. Applying concepts using real or simulated environments is a crucial step in reinforcing and internalizing what you've learned so far.
 ---
 
 ### 🖥️ Online Simulators
