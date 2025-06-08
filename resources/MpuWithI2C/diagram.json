@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "author": "Videep Reddy Jalapally",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 0, "left": 0, "attrs": {} },
+    { "type": "wokwi-mpu6050", "id": "imu1", "top": -53.78, "left": -170.48, "attrs": {} }
+  ],
+  "connections": [
+    [ "imu1:VCC", "uno:5V", "red", [ "v307.2", "h240.08" ] ],
+    [ "imu1:GND", "uno:GND.1", "black", [ "v-38.4", "h211.28" ] ],
+    [ "imu1:SCL", "uno:A5", "green", [ "v384", "h57.68" ] ],
+    [ "imu1:SDA", "uno:A4", "green", [ "v355.2", "h364.88" ] ]
+  ],
+  "dependencies": {}
+}
