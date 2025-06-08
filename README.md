@@ -142,3 +142,19 @@ Welcome to **ERC 101**, a curated learning path to master Digital Electronics, d
 - ▶️ [PWM with 555 + Potentiometer](https://www.youtube.com/watch?v=x4RmIzUd2lk&t=716s)
 
 ---
+
+Okay as you've understood the basics of digital electronics now lets understand microcontrollers
+
+### 8.Basics of a Microcontroller
+- [Basics of MCU](https://www.renesas.com/en/support/engineer-school/mcu-01-basic-structure-operation) (Read the full module)
+- [More in depth basics](https://embedded.fm/blog/2016/2/27/embedded-software-engineering-101-microcontroller-basics)
+- ▶️ [Microcontroller Explanation](https://www.youtube.com/watch?v=JwCTkm43CxQ)
+
+### 9.Peripheral Interactions(GPIO, ADC, DAC)
+- [Basics](https://www.renesas.com/en/support/engineer-school/mcu-programming-peripherals-01-gpio)
+- [Essential Peripherals Explained](https://embeddedinventor.com/9-essential-microcontroller-peripherals-explained/)
+- ▶️ [GPIO Inputs and Outputs Explained](https://www.youtube.com/watch?v=Naz_qLfcWpg)
+
+### 10. Serial Communication(UART, I2C, SPI)
+- ▶️ [Basics of Serial Communication](https://www.youtube.com/watch?v=IyGwvGzrqp8)
+- 📄 [Serial Communication in Detail](https://www.youtube.com/watch?v=IyGwvGzrqp8)
