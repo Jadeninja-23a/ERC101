@@ -234,7 +234,7 @@ While this implementation is specific to the ESP32, the concepts of multitasking
 
 ### ⏱️ RTOS with Arduino (ESP32)
 - ▶️ [FreeRTOS on ESP32 with Arduino IDE (Task Switching Demo)](https://www.youtube.com/watch?v=VvRLv6FNRl8)
-- 📄 [FreeRTOS Multitasking Example Code (ESP32 with Arduino)](https://github.com/ExplainingComputers/FreeRTOS_ESP32) *(Repo with example tasks)*
+- 📄 [FreeRTOS Multitasking Example Code (ESP32 with Arduino)](https://github.com/ExplainingComputers/FreeRTOS_ESP32) *(Repo with example )*
 
 
 
