@@ -153,23 +153,23 @@ Okay as you've understood the basics of digital electronics now lets understand 
 ### 9. Peripheral Interactions(GPIO, ADC, DAC)
 - [Basics](https://www.renesas.com/en/support/engineer-school/mcu-programming-peripherals-01-gpio)
 - [Essential Peripherals Explained](https://embeddedinventor.com/9-essential-microcontroller-peripherals-explained/)
-- ▶️ [GPIO Inputs and Outputs Explained](https://www.youtube.com/watch?v=Naz_qLfcWpg) (Second Half of the video how to use wire.h / spi communication)
+- ▶️ [GPIO Inputs and Outputs Explained](https://www.youtube.com/watch?v=Naz_qLfcWpg) (Second Half of the video how to use wire.h / i2c communication)
 
 ### 10. Serial Communication(UART, I2C, SPI)
 - ▶️ [Basics of Serial Communication](https://www.youtube.com/watch?v=IyGwvGzrqp8)
 - 📄 [Serial Communication in Detail](./resources/Communication_Protocols.pdf)
 
-#### UART
+#### UART (Asynchronous Communication)
 - ▶️[UART Protocol Explained](https://www.youtube.com/watch?v=JuvWbRhhpdI)
 - [Basics of UART Communication](https://www.circuitbasics.com/basics-uart-communication/)
 
-#### I2C
-- ▶️[I2C Protocol Explained](https://www.youtube.com/watch?v=pbqk5yqbfuw)
-- [Basics of UART Communication](https://www.circuitbasics.com/basics-of-the-spi-communication-protocol/)
-
-#### SPI
+#### SPI (Synchronous Communication)
 - ▶️[SPI Protocol Explained](https://www.youtube.com/watch?v=xogsRnnhK44)
 - [Basics of SPI Communication](https://www.circuitbasics.com/basics-of-the-i2c-communication-protocol/)
+
+#### I2C (Synchronous Communication)
+- ▶️[I2C Protocol Explained](https://www.youtube.com/watch?v=pbqk5yqbfuw)
+- [Basics of UART Communication](https://www.circuitbasics.com/basics-of-the-spi-communication-protocol/)
 
 ### 11. Data Storage
 - ▶️[EEPROM Explained](https://youtu.be/Sus96TzvjT4?si=4noOQwfwPUWtsjCM)
@@ -198,7 +198,12 @@ Okay as you've understood the basics of digital electronics now lets understand 
 - [Overview of Components](https://docs.arduino.cc/tutorials/uno-rev3/intro-to-board/)
 - [Full Pinout Diagram](./resources/A000066-full-pinout.pdf)
 
-- [I2C Communication With mpu]() 
+- [I2C Communication With mpu](./resources/MpuWithI2C)
+- i2c Communication with Arduino --> Second half of gpio pins video 
+- [SpI Communication using Arduino(Video tutorial)](https://www.youtube.com/watch?v=fvOAbDMzoks)
 
 - [EEPROM with Arduino](https://docs.arduino.cc/learn/programming/eeprom-guide/)
 - [Sd Card with Arduino](https://randomnerdtutorials.com/guide-to-sd-card-module-with-arduino/)
+
+- Exploring FreeRTOS -> RTOS Playlist
+- [MultiCore using FreeRTOS](./resources/multicore)
