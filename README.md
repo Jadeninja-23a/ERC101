@@ -237,5 +237,18 @@ While this implementation is specific to the ESP32, the concepts of multitasking
 - 📄 [FreeRTOS Multitasking Example Code (ESP32 with Arduino)](https://github.com/ExplainingComputers/FreeRTOS_ESP32) *(Repo with example )*
 
 
+---
+
+## 🏁 Completion
+
+🎉 **Congratulations!** You've reached the end of **ERC 101**.
+
+You've now built a solid foundation in **Digital Electronics**, explored the fundamentals of **Microcontrollers**, and even touched upon **Embedded Systems** and **RTOS**.
+
+This roadmap is just the beginning — the real learning begins when you start building and experimenting. Whether you're designing logic circuits, programming microcontrollers, or exploring advanced communication protocols, you're now equipped to take the next step.
+
+Stay curious, keep tinkering, and don’t hesitate to dive deeper.
+
+— **Electronics and Robotics Club**
 
 
