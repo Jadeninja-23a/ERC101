@@ -1,5 +1,10 @@
 # 🎓 ER 101 — Roadmap
 
+Hey! Welcome to the **ER101 Roadmap**, your guide to learning the fundamentals of electronics and robotics.
+
+This roadmap is simple to follow: for each topic, we’ve provided curated links to **documentation**, **video lectures**, and **reading materials**. Topics are arranged in a **recommended learning order**, progressing from basics to more advanced concepts.
+
+That said, you’re free to **jump around**—if there’s something specific you’re curious about, feel free to explore that first. Use this roadmap however it works best for you.
 
 ---
 
