@@ -249,6 +249,6 @@ This roadmap is just the beginning — the real learning begins when you start b
 
 Stay curious, keep tinkering, and don’t hesitate to dive deeper.
 
-— **Electronics and Robotics Club**
+— **Electronics and Robotics Club, IIT Bombay**
 
 
